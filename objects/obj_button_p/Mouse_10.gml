@@ -1,0 +1,1 @@
+image_alpha=0.5; //Will set button to slightly transparent when mouse hovers over button.

@@ -1,0 +1,1 @@
+image_alpha=1; //Will set it back to transparent when mouse hovers away.

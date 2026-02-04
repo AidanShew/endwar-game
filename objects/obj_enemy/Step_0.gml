@@ -1,0 +1,2 @@
+CheckForPlayer();
+fireCounter+=1;

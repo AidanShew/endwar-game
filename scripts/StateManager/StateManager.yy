@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StateManager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StateManager",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

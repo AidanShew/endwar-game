@@ -1,0 +1,1 @@
+points=0; //created points and set its value to 0.

@@ -1,0 +1,1 @@
+fireCounter=0;

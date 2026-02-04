@@ -1,0 +1,1 @@
+room_restart(); //This respawns the player after they are destroyed (see obj_player's collision event).
