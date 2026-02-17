@@ -2,7 +2,6 @@
 
 # End War
 ### Story: *Humanity Marches Toward Damnation*
-<<<<<<<
 Play as a special forces pilot, Atom, as he's sent to defend humanity's largest space station, the Arm of Edus, from mysterious attackers. Campaign coming soon...
 
 ### Controls: *Advanced Combat*
