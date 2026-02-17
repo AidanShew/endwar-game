@@ -1,0 +1,2 @@
+SoldierMovement();
+fireCounter+=1;

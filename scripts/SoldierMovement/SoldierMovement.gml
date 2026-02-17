@@ -1,0 +1,39 @@
+function SoldierMovement(){
+	//Checks if player is near
+	var stop_advance=200;
+	var StopEnemyAdvance=50;
+	var decelerate=1;
+	var accelerate=1;
+	var max_speed=5;
+	var screen_margin=17;
+	var screen_width=display_get_gui_width();
+	var screen_height=display_get_gui_height();
+	with (obj_soldier) {
+		if (x>=clamp(x,screen_margin,screen_width-screen_margin)&&y>=clamp(y,55,screen_height-screen_margin)) {
+			if (other.id!=id) {
+				if (distance_to_object(obj_soldier)<=StopEnemyAdvance) {
+					speed=max(speed-decelerate, 0);
+				}
+			}
+		}
+	}
+	
+	if (instance_exists(obj_player)) {
+		image_angle=point_direction(x, y, obj_player.x, obj_player.y);
+	
+		if (distance_to_object(obj_player)<=stop_advance) {
+			speed=max(speed-decelerate, 0);
+		
+		}
+		else {
+			move_towards_point(obj_player.x-stop_advance, obj_player.y-stop_advance, speed);
+			speed=min(speed+accelerate, max_speed);
+		}
+
+	//Fire rate manager
+		if (fireCounter>=soldier_fire_limit) {
+			instance_create_layer(x,y,"Instances", obj_evilbullet).direction=image_angle;
+			fireCounter=0;
+		}
+	}
+}

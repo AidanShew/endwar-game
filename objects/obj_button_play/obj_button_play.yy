@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_button_play",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_p","path":"objects/obj_button_p/obj_button_p.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_p/obj_button_p.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Campaign",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_p","path":"objects/obj_button_p/obj_button_p.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_p/obj_button_p.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Survival",},
   ],
   "parent":{
     "name":"Objects",

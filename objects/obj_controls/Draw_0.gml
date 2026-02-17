@@ -1,7 +1,7 @@
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
-draw_text(x,y, "CONTROLS:\nMove with arrow keys\nShoot by clicking left mouse\n\nOBJECTIVE:\nDefend the Arm of Edus Space Station from attackers.\n\n\n2026 TEAM JADE");
+draw_text(683,800, "CONTROLS:\nMOVE: Use WASD to move your ship\nFIRE: Use 'J' to fire slightly left\n'I'/Spacebar to fire straight up\n'L' to fire slightly right\n\nCheck out the README.md file for more info\n\n2026 JADE STUDIO\n\nv. 1.0.0");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
