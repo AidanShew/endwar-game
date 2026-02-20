@@ -1,4 +1,5 @@
 obj_bullet.speed=40;
+audio_play_sound(Fire2,0,false);
 /*
 ---Mouse Controls---
 var max_angle=22.5; //Lock angle to 22.5*2=45

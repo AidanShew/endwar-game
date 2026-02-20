@@ -1,6 +1,4 @@
 fireCounter+=1;
-player_speed=15;
-
 /*
  ---Old Movement---
 if keyboard_check(vk_up)||keyboard_check(ord("W")) { //checks if up arrow is pressed.

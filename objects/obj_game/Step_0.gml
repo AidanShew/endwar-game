@@ -1,7 +1,7 @@
 if (room==rm_horde) {
 	if (KillsThisRound>=KillsNeeded && EnemiesAlive<=0) {
 		RoundActive=false;
-		AdvanceRound();
+		advance_round();
 	}
 }
 

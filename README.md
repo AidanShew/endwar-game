@@ -31,7 +31,7 @@ Some may see a simple game, here, I see something much more narratively speaking
 
 ##### Next-Up (Second in Line)
 - Backgrounds
-- A gripping 4-part short story, taking full advantage of the "limitations" of an 8-bit Asteroids-based game. Will replace existing Campaign mode.
+- Campaign: Humanity Marches Toward Damnnation... A gripping 4-part story.
 
 ##### Low Priority
 - "Score Attack": High score based mode.

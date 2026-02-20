@@ -5,5 +5,5 @@ if (whirlpool_arrived&&killed_followers>0&&killed_followers>=follower_spawn_trig
 	whirlpool_arrived=false;
 }
 else {
-	WhirlpoolMovement();
+	whirlpool_movement();
 }

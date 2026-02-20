@@ -8,5 +8,5 @@ if (sprite_index==spr_rock_big) {
 }
 else {
 	instance_destroy();
-	CreateRock(1);
+	create_rock(1);
 }

@@ -5,9 +5,11 @@ if (wp_hp<=0) {
 		EnemiesAlive-=1;
 		obj_game.points+=350;
 	}
+	audio_play_sound(Explosion,0,false);
 	instance_destroy();
 }
 else {
+	audio_play_sound(Explosion,0,false);
 	instance_destroy(obj_bullet);
 	sprite_index=spr_whirlpool_hit;
 	draw=1;

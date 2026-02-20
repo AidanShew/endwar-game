@@ -4,7 +4,7 @@ if (room==rm_survival) {
 	with (obj_rock) {
 		instance_destroy();
 	}
-	CreateRock(6);
+	create_rock(6);
 }
-instance_create_layer(512,512, "Instances", obj_player);
-playerHealth=3;
+alarm[4]=0;
+playerHealth=50;

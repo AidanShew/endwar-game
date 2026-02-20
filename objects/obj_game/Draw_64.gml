@@ -17,18 +17,24 @@ if (room==rm_menu||room==rm_select) {
 	draw_text(683,444, "Most Recent Arena Round Completed "+string(obj_PlayerStats.RecentRound));
 	draw_text(683,474, "Highest Arena Round Completed "+string(obj_PlayerStats.HighestRound));
 	draw_text(683, 504, "High Score: "+string(obj_PlayerStats.HighScore));
-	if (obj_PlayerStats.HighestRound==2) {
-		draw_text(683,534, "Current Rank: Soldier");
-	}
-	else if (obj_PlayerStats.HighestRound==1) {
-		draw_text(683,534, "Current Rank: Cadet");
-	}
-	else if (obj_PlayerStats.HighestRound>2) {
-		draw_text(683,534, "Current Rank: Hero");
-	}
-	else {
-		draw_text(683,534, "Earn your rank in the Arena!");
-	}
+		if (obj_PlayerStats.RecentRound>=20) {
+			draw_text(683,534, "Rank: Champion");
+		} 
+		else if (obj_PlayerStats.RecentRound>10&&obj_PlayerStats.RecentRound<20) {
+			draw_text(683,534, "Rank: Hero");
+		}
+		else if (obj_PlayerStats.RecentRound>5&&obj_PlayerStats.RecentRound<=10) {
+			draw_text(683,534, "Rank: Soldier");
+		}
+		else if (obj_PlayerStats.RecentRound<=5&&obj_PlayerStats.RecentRound>1) {
+			draw_text(683,534, "Rank: Cadet");
+		}
+		else if (obj_PlayerStats.RecentRound==1) {
+			draw_text(683,534, "Rank: Noob");
+		}
+		else {
+			draw_text(683,534, "Earn Your Rank in the Arena!");
+		}
 }
 
 //Horde and stuff
@@ -37,6 +43,7 @@ if (room==rm_menu||room==rm_select) {
 		draw_text(683, 400, "Your Score: " +string(obj_PlayerStats.RecentPoints));
 		draw_text(683,430, "You made it to Round "+string(obj_PlayerStats.RecentRound)+"!");
 		if (obj_PlayerStats.RecentRound>=20) {
+			
 			draw_text(683,470, "Rank: Champion");
 		} 
 		else if (obj_PlayerStats.RecentRound>10&&obj_PlayerStats.RecentRound<20) {

@@ -9,5 +9,5 @@ with (obj_rock) {
 }
 
 if (RockCount<12) {
-	CreateRock(RockCount-12);
+	create_rock(RockCount-12);
 }

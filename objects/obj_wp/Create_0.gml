@@ -1,4 +1,3 @@
-//how_debug_message(string("Whirlpool Create instance Initiated"));
 whirlpool_arrived=false;
 state=0;
 fireCounter=0;

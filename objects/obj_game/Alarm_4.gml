@@ -1,0 +1,1 @@
+instance_create_layer(512,512,"Instances",obj_player);
